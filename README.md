@@ -42,7 +42,7 @@ Puoi visualizzare il progetto live su **GitHub Pages**:
 
 Apri il file index.html nel browser per visualizzare il progetto.
 
-Struttura del Progetto
+## Struttura del Progetto
 
 **src/**: Contiene il file input.css che viene utilizzato da Tailwind per generare il CSS finale.<br>
 **public/**: Contiene il file output.css generato da Tailwind.<br>

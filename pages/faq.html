@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <!-- Metadati fondamentali per il documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Titolo del sito e-commerce -->
+    <title>E-commerce con Tailwind</title>
+
+    <!-- Collegamento al foglio di stile generato da Tailwind CSS -->
+    <link rel="stylesheet" href="../public/output.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Navbar: sezione di navigazione principale del sito -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Logo che reindirizza alla home page -->
+            <a href="../index.html" class="text-2xl font-bold text-gray-900">Logo E-commerce</a>
+            
+            <!-- Menu di navigazione con i link alle pagine principali -->
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="../index.html" class="text-gray-800 hover:text-blue-600">Home</a></li>
+                    <li><a href="product.html" class="text-gray-800 hover:text-blue-600">Prodotti</a></li>
+                    <li><a href="cart.html" class="text-gray-800 hover:text-blue-600">Carrello</a></li>
+                    <li><a href="checkout.html" class="text-gray-800 hover:text-blue-600">Checkout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenuto Principale della pagina -->
+    <main class="container mx-auto px-6 py-8">
+        <!-- Titolo della pagina principale -->
+        <h1 class="text-3xl font-bold mb-6">Benvenuto nel nostro E-commerce</h1>
+
+        <!-- Paragrafo di benvenuto o descrizione -->
+        <p class="text-lg">Esplora la nostra vasta gamma di prodotti e trova quello che fa per te!</p>
+
+        <!-- Sezione dinamica che verrà popolata a seconda della pagina -->
+        <!-- Qui andrà il contenuto specifico per ogni pagina -->
+    </main>
+
+    <!-- Footer: sezione finale della pagina con link a FAQ e Contatti -->
+    <footer class="bg-gray-800 py-6 mt-10">
+        <div class="container mx-auto text-center text-gray-300">
+            <!-- Informazioni di copyright -->
+            <p>&copy; 2024 E-commerce. Tutti i diritti riservati.</p>
+            <!-- Link utili per gli utenti -->
+            <p>
+                <a href="faq.html" class="text-gray-400 hover:text-white">FAQ</a> |
+                <a href="contacts.html" class="text-gray-400 hover:text-white">Contatti</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
