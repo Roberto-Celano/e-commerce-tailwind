@@ -28,23 +28,28 @@ Puoi visualizzare il progetto live su **GitHub Pages**:
 1. **Clona la repository**:
    ```bash
    git clone https://roberto-celano.github.io/e-commerce-tailwind/
+   ```
 
-Installa le dipendenze:
+2. **Installa le dipendenze**:
+   ```bash
+   npm install
+   ```
 
-npm install
-Genera il file CSS:
+3. **Genera il file CSS**:
+   ```bash
+   npm run build
+   ```
 
-npm run build
 Apri il file index.html nel browser per visualizzare il progetto.
 
 Struttura del Progetto
 
-src/: Contiene il file input.css che viene utilizzato da Tailwind per generare il CSS finale.
-public/: Contiene il file output.css generato da Tailwind.
-index.html: La landing page con la struttura HTML.
+**src/**: Contiene il file input.css che viene utilizzato da Tailwind per generare il CSS finale.<br>
+**public/**: Contiene il file output.css generato da Tailwind.<br>
+**index.html**: La landing page con la struttura HTML.
 
-Autore
+**Autore**<br>
 Sviluppato da Roberto Celano.
 
-Licenza
+**Licenza**<br>
 Questo progetto è rilasciato sotto la licenza MIT.
